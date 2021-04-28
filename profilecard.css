@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.main{
+    background: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkcyan;
+    background-position: -90% -500px, 170% 400px;
+}
+.container{
+    background: white;
+    border-radius: 15px;
+    max-width: 350px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: gray;
+}
+.upper-container{
+    height: 150px;
+    width: 350px;
+    background: url(bg-pattern-card.svg);
+    background-size: cover;
+}
+img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    margin: -50px auto -30px auto;
+}
+.img img{
+    display: block;
+}
+.card-body{
+    margin-top: 55px;
+    /* margin-bottom: -75px; */
+    line-height: 1.7rem;
+}
+.card-body .name{
+    font-size: 1.4rem;
+}
+.card-body .age, .card-body .city{
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 59%);
+}
+.activity .one{
+    display: block;
+    font-weight: 300;
+    font-size: .9rem;
+    color:hsl(0, 0%, 59%) ;
+    letter-spacing: .1rem;
+}
+.activity{
+    display: flex;
+    border-top: 1px solid hsl(0, 10%, 89%);
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 22px;
+    flex-direction: row;
+    margin-top: 23px;
+    padding-bottom: 15px;
+}
